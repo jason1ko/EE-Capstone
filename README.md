@@ -1,6 +1,3 @@
-# EE-Capstone
-My EE Capstone results
-
 
 # Relative Embedding for Periocular and Face Recognition: Conditional Multimodal Biometrics
 
