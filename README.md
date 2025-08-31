@@ -62,5 +62,3 @@ Experiments were performed on six datasets:
 Cosine similarity generally outperformed KL divergence.
 
 ---
-
-## Suggested Repository Structure
