@@ -1,0 +1,22 @@
+model_name: "KD"
+
+backbone_name: "resnet18"
+
+train_config:
+  num_epochs: 40
+  batch_size: 64
+  lr: 0.1
+  milestones: [10, 20, 30]
+  momentum: 0.9
+  weight_decay_rate: 0.0005
+
+model_config:
+  tau: 2.5
+
+pretrain_config:
+  num_epochs: 50
+  batch_size: 64
+  lr: 0.1
+  milestones: [15, 25, 40]
+  momentum: 0.9
+  weight_decay_rate: 0.0005

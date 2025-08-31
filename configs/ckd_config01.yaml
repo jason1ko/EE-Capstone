@@ -1,0 +1,14 @@
+model_name: "CKD"
+
+backbone_name: "resnet18"
+
+train_config:
+  num_epochs: 90
+  batch_size: 512
+  lr: 0.1
+  milestones: [30, 60, 80]
+  momentum: 0.9
+  weight_decay_rate: 0.0005
+
+model_config:
+  tau: 2.5
