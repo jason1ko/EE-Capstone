@@ -64,5 +64,5 @@ Cosine similarity generally outperformed KL divergence.
 ---
 
 ## Reference
-This work is based on the final report submitted for EEE4610-01 at Yonsei University (Dec 2022).  
+This work is based on the graduation project submitted for EEE4610-01 at Yonsei University (Dec 2022).  
 Advisor: Prof. Andrew Beng Jin Teoh, Dr. Park Jae Woo.
